@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .container{
+    width: 1320px;
+    margin: 0 auto;
+  }
+  
+  .flex{
+    display: flex;
+  }
+
+
+
+
+  /* =================FOCUS PART CSS STARTS HERE================= */
+#focus-part .left{
+    width: 50%;
+}
+
+#focus-part .left .not-coloured{
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    border-left: solid 4px #ffad5a;
+    padding-left: 10px;
+    margin-top: 180px;
+}
+
+#focus-part .left .coloured{
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    border-left: solid 4px #ffad5a;
+    padding-left: 10px;
+    color: #E44642;
+}
+
+#focus-part .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#focus-part .left a{
+    padding: 10px 20px;
+    color: #FFF;
+    background: #5aacff;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#focus-part .left .p2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+#focus-part .right{
+    text-align: right;
+}
+
+#focus-part .right img{
+    width: 50%;
+    border-bottom: solid 5px #E44642;
+}
+/* =================FOCUS PART CSS ENDS HERE================= */
+
+
+
+
+
+
+
+/* =================MISSION PART CSS STARTS HERE================= */
+#mission-part{
+    margin-top: 100px;
+}
+
+#mission-part .title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#mission-part .title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#mission-part .title .date{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #E44642;
+}
+
+#mission-part .flex{
+    justify-content: space-between;
+}
+
+#mission-part .item{
+    width: 30%;
+    border-radius: 5%;
+    padding: 40px 0;
+}
+
+#mission-part .item img{
+    width: 50%;
+}
+
+#mission-part .item h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+#mission-part .item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+#mission-part .left{
+    background: #F5E8C7;
+}
+
+#mission-part .middle{
+    background: #DEBA9D;
+}
+
+#mission-part .right{
+    background: #9E7777;
+}
+/* =================MISSION PART CSS ENDS HERE================= */
+
+
+
+
+
+
+/* =================LIMIT PART CSS STARTS HERE================= */
+#limit-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#limit-part .left{
+    width: 40%;
+    position: relative;
+    border-radius: 5%;
+}
+
+#limit-part .left img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+#limit-part .left .shape{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+#limit-part .right{
+    width: 50%;
+    border-radius: 5%;
+    margin-left: 5%;
+    padding: 130px 0;
+}
+
+#limit-part .right h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#limit-part .right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#limit-part .right a{
+    padding: 10px 20px;
+    color: #FFF;
+    background: #5aacff;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+/* =================LIMIT PART CSS ENDS HERE================= */
+
+
+
+
+
+
+/* =================COMMUNITY PART CSS STARTS HERE================= */
+#community-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#community-part .right{
+    width: 40%;
+    position: relative;
+    border-radius: 5%;
+}
+
+#community-part .right img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+#community-part .right .shape{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    transform: translate(50%, 50%);
+    z-index: -1;
+}
+
+#community-part .left{
+    width: 50%;
+    border-radius: 5%;
+    margin-right: 5%;
+    padding: 130px 0;
+}
+
+#community-part .left h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#community-part .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#community-part .left a{
+    padding: 10px 20px;
+    color: #FFF;
+    background: #5aacff;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+/* =================COMMUNITY PART CSS ENDS HERE================= */
+
+
+
+
+
+
+/* =================BONUS PART CSS STARTS HERE================= */
+#bonus-part .item{
+    text-align: center;
+    margin: 200px 0;
+    position: relative;
+}
+
+#bonus-part .item .text{
+    width: 450px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+#bonus-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 35px;
+}
+
+#bonus-part h2{
+    font-family: 'Noto Serif', serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#bonus-part img{
+    border-radius: 50px;
+}
+
+#bonus-part a{
+    padding: 5px 10px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    left: 34%;
+}
+
+#bonus-part .item .text .coloured{
+    color:#E44642;
+}
+/* =================BONUS PART CSS ENDS HERE================= */
+
+
+
+
+
+
+/* =================FOOTER PART CSS STARTS HERE================= */
+footer{
+    text-align: center;
+    height: 90px;
+    background-image: linear-gradient(to right, #0F0F0F,#090909,#080808) ;
+    padding: 50px 0;
+}
+
+footer h2{
+    font-family: 'Miniver', cursive;
+    font-size: 40px;
+    color: #ebedff;
+}
+
+footer .date{
+    color:#5aacff ;
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ebedff;
+}
+/* =================FOOTER PART CSS ENDS HERE================= */
